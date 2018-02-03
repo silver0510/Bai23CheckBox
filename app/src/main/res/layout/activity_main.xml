@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sinki.bai23checkbox.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn thích học môn nào:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <CheckBox
+        android:id="@+id/chkAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Lập trình Android"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/chkCShaph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lập trình C#"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/chkJava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lập trình Java"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnChon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Chọn môn học"
+        android:textAppearance="@android:style/TextAppearance.Widget.Button"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Các môn bạn đăng ký là:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/txtMonHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+</LinearLayout>
